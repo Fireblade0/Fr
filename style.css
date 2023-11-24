@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+#main{
+    height: 100%;
+    width:100%;
+    background-color: rgba(0, 255, 255, 0.664);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card{
+    height: 290px;
+    width: 170px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    background: linear-gradient(
+        to right,
+        rgb(209, 205, 205),
+        rgb(171, 239, 201)
+    );
+    border: 2px solid goldenrod;
+}
+#bg{
+    height: 60px;
+    width: 60px;
+    background-image: url(./Dost.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 11px;
+    margin-left: 50px;
+}
+h1{
+    font-size: 15px;
+    font-family: gilroy;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+p{
+    font-size: 10px;
+    font-family: gilroy;
+    margin-left: 18px;
+    margin-top: 10px;
+    margin-right: 8px;
+    color: rgb(88, 88, 88);
+}
+h5{
+    font-size: 15px;
+    font-family: gilroy;
+   margin-top: 15px;
+   color: brown;
+   margin-left: 54px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 34px;
+    background:linear-gradient(
+        to right,
+        rgb(64, 64, 192),
+        rgb(202, 70, 202)
+    );
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    font-family: gilroy;
+    font-weight: 800px;
+    font-size:11px ;
+    cursor: pointer;
+}
